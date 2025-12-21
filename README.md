@@ -21,20 +21,20 @@ validated the superiority of our proposals.
 
 <u>**Training and validating FullAttNet on benchmark datasets:**</u>
 
-- For training FullAttNet on datasets Stanford Dogs and ImageNet:
+- For training FullAttNet on datasets Stanford Dogs and challenging subset ReIN100 of ImageNet:
 ```
 $ python Train_FullAttNet_StanfordDogs.py
-$ python Train_FullAttNet_ImageNet.py
+$ python Train_FullAttNet_ReIN.py
 ```
 - For validating FullAttNet on datasets Stanford Dogs and ImageNet::
 ```
 $ python Train_FullAttNet_StanfordDogs.py --evaluate
-$ python Train_FullAttNet_ImageNet.py --evaluate
+$ python Train_FullAttNet_ReIN.py --evaluate
 ```
 <u>**Note:**</u>
 - Subject to your system, modify these files (*.py) to have the right path to dataset
 
-- For the instance of validation of FullAttNet on ImageNet, download its trained model at: [Click here](https://drive.google.com/file/d/106AtFXm9mRM1vf-msBl-XUvvSVU-UZLM/view?usp=drive_link). And then locate the downloaded file as ./checkpoints/ImageNet1k/model_best.pth.tar
+- For the instance of validation of FullAttNet on challenging subset ReIN100 of ImageNet, download its trained model at: [Click here](https://drive.google.com/drive/folders/1l0dPxui5KF5HNI87YUX_HRebyfLZ_1dI?usp=sharing). And then locate the downloaded file as ./checkpoints/ReIN100/model_best.pth.tar
 
 **Related citation(s):**
 
