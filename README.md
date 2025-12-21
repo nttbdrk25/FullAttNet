@@ -44,7 +44,7 @@ If you use any materials, please cite the following relevant work(s).
 @article{FullAttNetNguyen25,
   author       = {Thanh Tuan Nguyen and Hoang Anh Pham and Thinh Vinh Le and Thanh Phuong Nguyen},
   title        = {Full-plane Attentive Patterns Adopted by an Adaptative Lightweight Backbone for Image Recognition},
-  journal      = {Transactions on Multimedia},
+  journal      = {IEEE Transactions on Multimedia},
   note         = {Submitted 2025}
 }
 ```
