@@ -1,8 +1,7 @@
 # Full-plane Attentive Patterns Adopted by an Adaptative Lightweight Backbone for Image Recognition
 
 **Abstract:**
-
-* A novel attention mechanism is proposed by considering the full planes of a given tensor so that the learning
+A novel attention mechanism is proposed by considering the full planes of a given tensor so that the learning
 process can concentrate on the complete aspects of a concerning
 object. Accordingly, we split T into three plane-based tensors
 corresponding to its three orthogonal planes. For each planebased tensor, its multiple statistical features will be exploited to
