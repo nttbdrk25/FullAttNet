@@ -26,7 +26,7 @@ validated the superiority of our proposals.
 $ python Train_FullAttNet_StanfordDogs.py
 $ python Train_FullAttNet_ReIN.py
 ```
-- For validating FullAttNet on datasets Stanford Dogs and ImageNet::
+- For validating FullAttNet on datasets Stanford Dogs and challenging subset ReIN100 of ImageNet::
 ```
 $ python Train_FullAttNet_StanfordDogs.py --evaluate
 $ python Train_FullAttNet_ReIN.py --evaluate
