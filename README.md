@@ -19,36 +19,32 @@ to capture diverse spatial information for the learning process.
 Experiments for image recognition on benchmark datasets have
 validated the superiority of our proposals.
 
-<u>**Training and validating NetTOP on benchmark datasets:**</u>
+<u>**Training and validating FullAttNet on benchmark datasets:**</u>
 
-- For training NetTOP on datasets Stanford Dogs and ImageNet:
+- For training FullAttNet on datasets Stanford Dogs and ImageNet:
 ```
-$ python Train_NetTOP_StanfordDogs.py
-$ python Train_NetTOP_ImageNet.py
+$ python Train_FullAttNet_StanfordDogs.py
+$ python Train_FullAttNet_ImageNet.py
 ```
-- For validating NetTOP on datasets Stanford Dogs and ImageNet::
+- For validating FullAttNet on datasets Stanford Dogs and ImageNet::
 ```
-$ python Train_NetTOP_StanfordDogs.py --evaluate
-$ python Train_NetTOP_ImageNet.py --evaluate
+$ python Train_FullAttNet_StanfordDogs.py --evaluate
+$ python Train_FullAttNet_ImageNet.py --evaluate
 ```
 <u>**Note:**</u>
 - Subject to your system, modify these files (*.py) to have the right path to dataset
 
-- For the instance of validation of NetTOP on ImageNet, download its trained model at: [Click here](https://drive.google.com/file/d/106AtFXm9mRM1vf-msBl-XUvvSVU-UZLM/view?usp=drive_link). And then locate the downloaded file as ./checkpoints/ImageNet1k/model_best.pth.tar
+- For the instance of validation of FullAttNet on ImageNet, download its trained model at: [Click here](https://drive.google.com/file/d/106AtFXm9mRM1vf-msBl-XUvvSVU-UZLM/view?usp=drive_link). And then locate the downloaded file as ./checkpoints/ImageNet1k/model_best.pth.tar
 
 **Related citation(s):**
 
 If you use any materials, please cite the following relevant work(s).
 
 ```
-@article{NetTOPNguyen24,
-  author       = {Thanh Tuan Nguyen and Thanh Phuong Nguyen},
-  title        = {NetTOP: A light-weight network of orthogonal-plane features for image recognition},
+@article{FullAttNetNguyen25,
+  author       = {Thanh Tuan Nguyen and Hoang Anh Pham and Thinh Vinh Le and Thanh Phuong Nguyen},
+  title        = {Full-plane Attentive Patterns Adopted by an Adaptative Lightweight Backbone for Image Recognition},
   journal      = {Machine Learning},
-  volume       = {114},
-  number       = {4},
-  pages        = {98},
-  year         = {2025},
-  url          = {https://doi.org/10.1007/s10994-024-06672-2}
+  submited       = {2025},
 }
 ```
