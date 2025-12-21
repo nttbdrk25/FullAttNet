@@ -34,7 +34,7 @@ $ python Train_FullAttNet_ReIN.py --evaluate
 <u>**Note:**</u>
 - Subject to your system, modify these files (*.py) to have the right path to dataset
 
-- For the instance of validation of FullAttNet on challenging subset ReIN100 of ImageNet, download its trained model at: [Click here](https://drive.google.com/drive/folders/1l0dPxui5KF5HNI87YUX_HRebyfLZ_1dI?usp=sharing). And then locate the downloaded file as ./checkpoints/ReIN100/model_best.pth.tar
+- For the instance of validation of FullAttNet on challenging subset ReIN100 of ImageNet, download its trained model at: [Click here](https://drive.google.com/drive/folders/1l0dPxui5KF5HNI87YUX_HRebyfLZ_1dI?usp=sharing). And then locate the downloaded files as ./checkpoints/ReIN100/model_best.pth.tar
 
 **Related citation(s):**
 
