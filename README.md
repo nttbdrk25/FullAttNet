@@ -1,4 +1,4 @@
-# Computing full-plane attentive patterns adopted by an appropriate lightweight backbone for image recognition
+# Orthogonally computing full-plane attentive patterns adopted by an appropriate lightweight backbone for image recognition
 **Abstract:**
 A novel attention mechanism is proposed by considering the full planes of a given tensor so that the learning
 process can concentrate on the complete aspects of a concerning
