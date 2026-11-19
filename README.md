@@ -42,7 +42,7 @@ If you use any materials, please cite the following relevant work(s).
 ```
 @article{FullAttNetNguyen25,
   author       = {Thanh Tuan Nguyen and Hoang Anh Pham and Thinh Vinh Le and Thanh Phuong Nguyen},
-  title        = {Full-plane Attentive Patterns Adopted by an Adaptative Lightweight Backbone for Image Recognition},
+  title        = {Orthogonally computing full-plane attentive patterns adopted by an appropriate lightweight backbone for image recognition},
   journal      = {Applied Soft Computing},
   note         = {Submitted 2026}
 }
