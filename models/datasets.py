@@ -1,6 +1,5 @@
 import os.path
 import tarfile
-
 import torchvision.datasets
 import torchvision.datasets.folder
 import torchvision.datasets.utils
