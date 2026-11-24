@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#chi con thu 128 voi MAFC binh thuong xem sao
 """
 Created on Thu Mar 30 11:39:11 2023
 
